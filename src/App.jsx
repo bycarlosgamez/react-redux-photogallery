@@ -1,3 +1,11 @@
-export default function App() {
-  return <h1 className='text-3xl font-bold underline'>Hello world!</h1>;
+import UsersList from './components/UsersList';
+
+function App() {
+  return (
+    <div className='container mx-auto'>
+      <UsersList />
+    </div>
+  );
 }
+
+export default App;
