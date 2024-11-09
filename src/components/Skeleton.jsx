@@ -25,7 +25,7 @@ function Skeleton({ times, className }) {
     .map((_, i) => {
       return (
         <div key={i} className={outerClassNames}>
-          <div className={innerClassNames}></div>
+          <div className={innerClassNames} />
         </div>
       );
     });
